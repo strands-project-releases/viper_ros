@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<package>
+  <name>viper_ros</name>
+  <version>0.0.2</version>
+  <description>The ROS integration of the viper package</description>
+
+  <maintainer email="l.kunze@cs.bham.ac.uk">Lars Kunze</maintainer>
+  <maintainer email="n.a.hawes@cs.bham.ac.uk">Nick Hawes</maintainer>
+
+  <license>BSD</license>
+
+  <author email="l.kunze@cs.bham.ac.uk">Lars Kunze</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>actionlib</build_depend>
+  <build_depend>actionlib_msgs</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>smach</build_depend>
+  <build_depend>smach_ros</build_depend>
+  <build_depend>strands_navigation_msgs</build_depend>
+  <build_depend>soma_manager</build_depend>
+  <build_depend>soma_msgs</build_depend>
+  <build_depend>octomap_msgs</build_depend>
+  <!-- <build_depend>world_modeling</build_depend> -->
+  <!-- <build_depend>vision_people_logging</build_depend> -->
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>viper</build_depend>
+
+  <run_depend>message_runtime</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>actionlib</run_depend>
+  <run_depend>actionlib_msgs</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>smach</run_depend>
+  <run_depend>smach_ros</run_depend>
+  <run_depend>strands_navigation_msgs</run_depend>
+  <run_depend>soma_manager</run_depend>
+  <run_depend>soma_msgs</run_depend>
+  <run_depend>octomap_msgs</run_depend>
+  <!-- <run_depend>world_modeling</run_depend> -->
+  <!-- <run_depend>vision_people_logging</run_depend> -->
+  <run_depend>viper</run_depend>
+
+
+</package>
